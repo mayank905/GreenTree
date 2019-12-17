@@ -1,0 +1,145 @@
+@media(min-width:376px){
+    header{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header .container{
+        width:100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    header .list1{
+        flex-direction:row;
+        justify-content: space-around;
+    }
+
+    header .button1{
+        width: 30%;
+    }
+
+    /*  section1                 */
+    header .button{
+        width: 40%;
+    }
+
+    .s1r1{
+        bottom:20%;
+    }
+    .ajeebrect{
+        left:10%;
+        bottom:90%;
+    }
+/*        section2           */
+    .s2r3r1{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .s2r3r2{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .s2r3r3{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    .section2images{
+        bottom: 10px;
+        left:10px;
+    }
+
+/*           section3            */
+    .section3{
+        height:900px;
+    }
+
+    .section3 .container{
+        grid-template-columns: 1fr 2fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "climate doyouknow"
+    "action doyouknow";
+    }
+    .s3r1{
+        grid-area: climate;
+    }
+    .s3r2{
+        grid-area: action;
+        max-height: 30%;
+        width: 100%;
+    }
+    .s3r4{
+        grid-area: doyouknow;
+    }
+/*          section4      */
+
+    .s4r3{
+        position:relative;
+        left:10%;
+        bottom:20%;
+        width:80%;
+        height:60%;
+
+    }
+    .s4r4{
+        position:relative;
+        bottom:200%;
+    }
+
+/*           section5        */
+
+    .ajeebrect3{
+        position: static;
+    }
+
+    .s5r2{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: .2fr 1fr 1fr 0.3fr;
+        grid-template-areas:"photo one"
+        "photo two"
+        "photo three"
+        "photo four";
+    }
+    .s5r3{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 1fr 0.3fr;
+        grid-template-areas:"one photo"
+        "two photo"
+        "three photo"
+        "four photo";
+        grid-gap: 0.5%;
+    }
+    .tree{
+        grid-area:photo;
+        height:100%;
+    }
+    .s5r2r3{
+
+    }
+    .s5r3r3{
+        grid-area: two;
+
+    }
+
+
+/*           section6                */
+/*              footer               */
+    footer .container1{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 0.2fr 1fr;
+        grid-template-areas:"one two four"
+        "one three five"
+        "one six eight"
+        "one seven eight";
+        grid-gap: 5%;
+    }
+
+
+
+
+
+
+
+
+}

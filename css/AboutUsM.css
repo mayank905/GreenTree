@@ -1,0 +1,200 @@
+@font-face {
+    font-family: "Flood Std";
+    src: url(../Flood-Std_17963.ttf);
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url(../Helvetica.ttf);
+}
+h2{
+    font-size:120%;
+}
+.helvetica{
+    font-family: Helvetica;
+}
+body{
+    padding:0;
+    margin:0;
+    max-width:100%;
+    color: #354463;
+}
+li{
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+a{
+    color: #354463;
+    text-decoration: none;
+}
+header{
+    background: #ffffff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .container{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button{
+    background-color:#C1F7D5 ;
+    width: 90%;
+    border-radius: 100px ;
+    opacity: 1;
+    margin:5%;
+}
+header .list1{
+    display: flex;
+    flex-direction:column;
+
+}
+
+/*                      section1                                   */
+.section1{
+    position:relative;
+    height:600px;
+    width:100%;
+    background-image: url("../images/assets/about-us/annie-spratt-427339-unsplash.png");
+    background-position:center;
+    background-size: cover;
+}
+.section1 .container{
+display: flex;
+    flex-direction: column;
+}
+.s1r1{
+    font-family: "Flood Std";
+    color:white;
+    font-size: 300%;
+    width: 20%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+.s1r2{
+    background-color: white;
+    height:90%;
+    width:80%;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    padding: 5%;
+    margin-bottom: 10%;
+    margin-left:5%;
+    text-align: center;
+}
+.ajeebrect{
+    position: absolute;
+    padding:2%;
+    text-align: center;
+    background-color:#354463;
+    width:90px;
+    color:white;
+    left:30%;
+    bottom:93%;
+}
+/*                  section2                  */
+.section2{
+    background-color: #354463;
+}
+.section2 .container{
+    padding-top:10% ;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.s2r1{
+    color:#354463;
+    background-color: white;
+    text-align: center;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 10%;
+    margin-left: 15%;
+}
+.s2r2{
+    margin-left:10%;
+    margin-bottom: 10%;
+    width:80%;
+    font-size: 150%;
+    text-align: center;
+}
+.s2r3{
+    margin-left: 10%;
+    margin-bottom: 20%;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5%;
+}
+.icon{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 90%;
+}
+
+/*              section 3             */
+.section3 .container{
+    display:flex;
+    flex-direction: column;
+}
+
+.s3r1{
+    background-color: #354463;
+    color: white;
+    width:30%;
+    padding:2%;
+    text-align: center;
+    margin-top:4vh;
+    margin-left:30vw;
+    margin-bottom: 4vh;
+    grid-area: one;
+}
+
+.s3r2{
+    color: #354463;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+    width: 60%;
+    margin-left:20vw;
+    margin-bottom: 4vh;
+    grid-area: two;
+}
+.s3r3{
+    text-align: center;
+    margin-left: 5%;
+    margin-right:5%;
+    grid-area: three;
+}
+.s3r4{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 5%;
+    margin:5%;
+}
+.peopletag{
+    background-color: #354463;
+
+}
+.peopletag1{
+    color: white;
+    padding: 5%;
+}
+/*                  section4                 */
+.section4{
+    background-image: url("../images/assets/about-us/ian-macharia-509884-unsplash.png");
+    background-position:center;
+    background-size: cover;
+    margin-top:20%;
+}
+

@@ -1,0 +1,100 @@
+@media(min-width:376px) {
+    h2{
+        font-size: 150%;
+    }
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .container {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .list1 {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    header .button1 {
+        width: 30%;
+    }
+
+    /*  section1                 */
+    header .button {
+        width: 40%;
+    }
+
+
+    /*  section2                */
+    .s2r1{
+        margin-left: 10%;
+    }
+    .s2r2{
+        text-align:left;
+    }
+    .s2r3{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr ;
+    }
+
+/*              secton 3             */
+    .section3 .anotherContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "one one"
+        "two three";
+    }
+    .s3r1{
+        height:20%;
+        margin-left: 10%;
+        margin-bottom: 1%;
+    }
+    .s3r2{
+        text-align: left;
+        margin-left: 10vw;
+    }
+    .s3r3{
+        text-align: left;
+    }
+    .s3r4{
+        grid-gap:7%;
+
+    }
+    .peopleSuper{
+        position:relative;
+        width:80%;
+    }
+    .peopletag{
+        position:absolute;
+        top:90%;
+        left:20%;
+        width: 100%;
+        height: fit-content;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

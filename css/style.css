@@ -1,0 +1,474 @@
+@font-face {
+    font-family: "Flood Std";
+    src: url(../Flood-Std_17963.ttf);
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url(../Helvetica.ttf);
+}
+h2{
+    font-size:large;
+}
+body{
+    padding:0;
+    margin:0;
+    width:100%;
+    color: #354463;
+}
+li{
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+}
+a{
+    color: #354463;
+    text-decoration: none;
+}
+
+.section1{
+    position:relative;
+    height: 592px;
+    width:100%;
+    background-image: url("../images/assets/home/annie-spratt-135307-unsplash.png");
+    background-position: right;
+    background-size: cover;
+}
+header{
+    background: #ffffff;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+header .container{
+    width:100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.button{
+    background-color:#C1F7D5 ;
+   width: 100%;
+    border-radius: 100px ;
+    opacity: 1;
+    margin:5%;
+}
+header .list1{
+    display: flex;
+    flex-direction:column;
+
+}
+
+/*                                   section1 starts                   */
+
+.l1i1{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.l1i2{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.l1i3{
+    display: inline-block;
+    text-align: center;
+    width:100%;
+}
+.heading{
+    margin-left: 2%;
+}
+.section1{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.section1 .container{
+    display:flex;
+    flex-direction: column;
+}
+.s1r1{
+    font-family:"Flood Std";
+    color:white;
+    font-size: 200%;
+    width: 20%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+.ajeebrect{
+    position: absolute;
+}
+.s1r3{
+    background-color: white;
+    height:90%;
+    width:50%;
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+    padding: 5%;
+    margin-bottom: 10%;
+    margin-left:5%;
+    text-align: center;
+
+}
+.s1r3r1{
+    font-size: xx-large;
+
+}
+.ajeebrect{
+    padding:2%;
+    text-align: center;
+    background-color:#354463;
+    width:90px;
+    color:white;
+    left:30%;
+    bottom:90%;
+}
+.section1 footer{
+    background-color: #C1F7D5;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+
+/*                          section2                         */
+
+
+.section2 .container{
+    background-color: #354463;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.s2r1{
+    max-width: 40%;
+    background-color: white;
+    margin-top: 2%;
+}
+.s2r2{
+    color:white;
+    max-width: 60%;
+}
+.s2r3{
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.s2r3r1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.s2r3r1r1{
+    max-width: 80%;
+}
+.s2r3r1r4{
+  background-color: #C1F7D5;
+    border-radius: 20px;
+}
+
+.s2r3r2{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.s2r3r2r1{
+    max-width: 80%;
+}
+.s2r3r2r4{
+    background-color: #C1F7D5;
+    border-radius: 20px;
+}
+.s2r3r3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.s2r3r3r1{
+    max-width: 80%;
+}
+.s2r3r3r4{
+    background-color: #C1F7D5;
+    border-radius: 20px;
+}
+.button2{
+    width: 70%;
+}
+.section2images{
+    position:relative;
+    bottom: 10px;
+}
+.section2 .helvetica{
+    margin-bottom: 5%;
+}
+.gap{
+    margin-bottom: 5%;
+    margin-left: 2%;
+}
+/*                         section3                      */
+
+.section3{
+    background-image: url("../images/assets/home/did-you-know-background@3x.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 1508px;
+    position: relative;
+}
+.section3 .container{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.4fr 4fr;
+}
+
+.s3r1{
+    font-family:"Flood Std";
+    color:white;
+    font-size: 200%;
+    max-width: 40%;
+    margin-left: 20px;
+    margin-top: 20%;
+}
+.s3r2{
+    margin-top: 10%;
+    width:70%;
+}
+.s3r4r1{
+    position: relative;
+
+}
+.section3 .s3r3{
+    width:50%;
+    padding: 5px;
+    position:absolute;
+    left:20%;
+    bottom:95%;
+
+}
+.s3r4{
+    margin-top: 20% ;
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    padding-left: 10%;
+    grid-gap:5%;
+
+}
+.s3r4same{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+    max-width: 80%;
+    max-height: fit-content;
+}
+
+.social{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C1F7D5;
+    border-radius: 100%;
+    max-width: 40px;
+    max-height: 40px;
+}
+.leftbound{
+    margin-left: 10px;
+}
+/*                     section4                */
+
+.section4 .container{
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 0.2fr;
+}
+.section4 .s4r1{
+    bottom:95%;
+}
+.s4r2{
+    position: relative;
+    max-width: 80%;
+    margin-left: 10%;
+    margin-right:10%;
+    margin-bottom: 5%;
+    margin-top: 10%;
+}
+.s4r3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #354463;
+    color: white;
+    max-width:80% ;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+}
+.s4r4{
+    height:70%;
+    width:40%;
+    margin-left:20%;
+    margin-top: 5%;
+}
+/*                                 section5                             */
+
+.section5{
+    max-height: fit-content;
+    padding-top: 10%;
+}
+.section5 .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #354463;
+    color:white;
+}
+.s5r1{
+    font-family: "Flood Std";
+    max-width: 50%;
+}
+.s5r2{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 0.2fr 0.5fr 0.2fr 0.2fr;
+}
+
+.s5r3{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 0.2fr 0.5fr 0.2fr 0.2fr;
+    grid-gap: 0.5%;
+}
+.tree{
+    max-width: 90%;
+    position: relative;
+
+}
+.leftbound1{
+    margin-left: 10%;
+    max-width:80%;
+}
+.helvetica{
+    font-family: Helvetica;
+    text-align: center;
+
+}
+/*
+.ajeebrect2{
+    background-color: white;
+    text-align: center;
+    color: #354463;
+    max-width: 40%;
+    position: absolute;
+    left:35%;
+    bottom:97%;
+}
+*/
+.ajeebrect3{
+    text-align: center;
+    position: relative;
+    left:70px;
+    bottom:280px;
+    background-color: white;
+    color: #354463;
+    max-width: 40%;
+}
+/*                           section6                                */
+
+.section6 .container{
+    padding-top: 10%;
+    background-color: #C1F7D5;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "one1 one1"
+    "two2 three3";
+}
+.s6r1{
+    grid-area: one1;
+    font-size: x-large;
+}
+.s6r2{
+    text-align: center;
+    background-color: #FFFFFF;
+    color: #354463;
+    grid-area: two2;
+    border-radius: 100px;
+    max-width: 80%;
+    max-height: 40%;
+    padding-top: 5%;
+    margin-top: 5%;
+}
+.s6r3{
+    grid-area: three3;
+    max-width: 80%;
+    margin-top: 5%;
+}
+.s6r3 .button2{
+    background-color: #354463;
+    color: #C1F7D5;
+    position:relative;
+    bottom:10%;
+}
+/*                           footer                                 */
+
+.social2{
+    display:flex;
+    flex-direction: column;
+}
+
+footer .container1{
+    margin-top: 10%;
+    text-align: center;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.7fr 0.2fr 0.7fr 1fr;
+    grid-template-areas:"one two"
+    "one three"
+    "four six"
+    "five seven"
+     ". eight";
+    grid-gap: 5%;
+}
+.fr8{
+    grid-area: eight;
+    font-family: "Flood Std";
+    font-size: xx-large;
+}
+.fr7{
+    grid-area:seven;
+}
+.fr6{
+    grid-area:six;
+}
+.fr5{
+    grid-area:five;
+}
+.fr4{
+    grid-area:four;
+}
+.fr3{
+    grid-area:three;
+}
+.fr2{
+    grid-area:two;
+}
+.fr1{
+    grid-area:one;
+    font-size: x-large;
+}
+
+

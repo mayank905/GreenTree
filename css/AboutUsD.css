@@ -1,0 +1,87 @@
+@media(min-width:768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .container {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .list1 {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header .button1 {
+        width: 30%;
+
+    }
+    .section1 .container{
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+        top:50%;
+    }
+    .s1r2{
+        width: 30%;
+    }
+
+    /*                          section2                           */
+    /*                          section3                     */
+    .s3r4{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 10%;
+    }
+.peopletag{
+    height:25%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
