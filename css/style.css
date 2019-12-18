@@ -422,6 +422,7 @@ header .list1{
     color: #C1F7D5;
     position:relative;
     bottom:10%;
+    min-width: 94px;
 }
 /*                           footer                                 */
 

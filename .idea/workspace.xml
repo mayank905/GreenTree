@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="63ec882f-482f-4add-822d-c47a48885ea4" name="Default Changelist" comment="" />
+    <list default="true" id="63ec882f-482f-4add-822d-c47a48885ea4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/assets/about-us/poverty.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/assets/about-us/poverty@2x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/AboutUsD.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsD.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/AboutUsM.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsM.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/AboutUsT.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsT.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,15 +28,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1UukUQYCb7RnsDz3g9eQTvF2mmM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
@@ -35,7 +53,7 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.aboutus.html">
+  <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="aboutus.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GreenTree/aboutus.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
@@ -44,8 +62,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.aboutus.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.aboutus.html" />
       </list>
     </recent_temporary>
   </component>
@@ -71,14 +89,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576213882581</updated>
-      <workItem from="1576213884364" duration="130805000" />
+      <workItem from="1576213884364" duration="162099000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="311" y="58" width="800" height="677" key="#Inspections" timestamp="1576649175689">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="311" y="58" width="800" height="677" key="#Inspections/67.27.1299.741@67.27.1299.741" timestamp="1576649175689" />
     <state x="380" y="175" key="run.anything.popup" timestamp="1576473481411">
       <screen x="67" y="27" width="1299" height="741" />
     </state>

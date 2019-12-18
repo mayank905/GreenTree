@@ -39,15 +39,51 @@
 .peopletag{
     height:25%;
 }
+/*                 section4                */
+    .s4r1r2{
+        font-size: 140%;
+    }
+    .s4r2{
+        grid-template-columns:1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr ;
+        grid-gap: 5%;
+        font-size: 140%;
+    }
+/*                    section5               */
+
+    .s5r1a{
+        display:none;
+    }
+    .s5r1b{
+        display:block;
+        margin-top:5%;
+        width:60%;
+        color:white;
+        margin-bottom:10%;
+        font-size: 150%;
+    }
+
+    .s5r3{
+        grid-gap:40%;
+    }
+    .teenrect{
+        width:300%;}
 
 
+/*                section6                    */
+    .section6 .container{
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "one1 two2 three3";
+    }
 
-
-
-
-
-
-
+    /*            footer             */
+    footer .container1{
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        grid-template-areas:"one two four six eight"
+        "one three five seven eight";
+    }
 
 
 
