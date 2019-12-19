@@ -1,0 +1,220 @@
+@font-face {
+    font-family: "Flood Std";
+    src: url(../Flood-Std_17963.ttf);
+}
+@font-face {
+    font-family: "Helvetica";
+    src: url(../Helvetica.ttf);
+}
+body{
+    margin:0%;
+    padding:0%;
+    font-family: Helvetica;
+}
+.button{
+    background-color:#C1F7D5 ;
+    width: 80%;
+    border-radius: 6.5em ;
+    opacity: 1;
+    margin:5%;
+    font-size: 70%;
+}
+.list{
+    color:#C1F7D5;
+}
+a{
+    color:#354463;
+}
+li{
+    display: inline-block;
+}
+.heading{
+    font-size:150%;
+    color: #354463;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 3%
+}
+.social2{
+    display:flex;
+    flex-direction: column;
+}
+
+/*                  Banner                          */
+.banner{
+    background-image: url("../images/assets/donation/annie-spratt-427340-unsplash.png");
+    background-position: right;
+    background-size: cover;
+    height:55em;
+    background-color: #354463;
+
+}
+.bannerHeading{
+    font-family: "Flood Std";
+    color:white;
+    font-size:150%;
+    margin-bottom: 10%;
+    padding-top: 10%;
+    margin-left: 15%;
+}
+.form{
+    background-color: #354463;
+    padding:5%;
+    width:70%;
+    color: white;
+    font-size: 70%;
+    margin-left: 10%;
+
+}
+.yourInformation{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: "firstname lastname"
+    "streetAddress ."
+    "city statezip"
+    "emailAddress .";
+    grid-gap: 10%;
+    margin-bottom: 5%;
+}
+
+.firstname{
+    grid-area: firstname;
+}
+.lastname{
+grid-area:lastname;
+}
+.streetAddress{
+    grid-area: streetAddress;
+}
+.streetAddress input{
+    width:170%;
+}
+.cityName{
+    grid-area: city;
+}
+.stateZip{
+    grid-area: statezip;
+    display:flex;
+    justify-content: flex-start;
+}
+.emailAddress{
+    grid-area: emailAddress;
+}
+.emailAddress input{
+    width:205%;
+}
+.streetAddress input{
+    width:205%;}
+.creditCard input{
+    width:92%;
+}
+
+
+input{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #C1F7D5;
+    padding-bottom:3%;
+    width:70%;
+}
+select{
+    background-color: #354463;
+    border:none;
+    border-bottom: 1px solid #C1F7D5;
+    padding-top: 3%;
+    width:70%;
+}
+.cardinfo{
+    display: flex;
+    justify-content: space-between;
+}
+.creditCard{
+    margin-bottom: 3%;
+}
+.expirationDate{
+    display: flex;
+    justify-content: space-between;
+}
+.paymentInformation{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10%;
+}
+.b4clickMessage{
+    font-size: 150%;
+}
+.buttonAndLink{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link a{
+    color: #C1F7D5;
+}
+.link{
+    margin-left: 5%;
+}
+.label{
+    margin-bottom: 10%;
+    font-size: 200%;
+}
+.b4clickMessage{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    font-weight: bold;
+}
+.securitycode{
+    min-width: 100px;
+}
+
+/*                                 footer                              */
+
+footer .container1{
+    margin-top: 10%;
+    text-align: left;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.2fr 0.7fr 0.2fr 0.7fr 1fr;
+    grid-template-areas:"one two"
+    "one three"
+    "four six"
+    "five seven"
+    ". eight";
+    grid-gap: 5%;
+    color:#354463;
+    padding: 5%;
+}
+.fr8{
+    grid-area: eight;
+    font-family: "Flood Std";
+    font-size: xx-large;
+}
+.fr7{
+    grid-area:seven;
+}
+.fr6{
+    grid-area:six;
+}
+.fr5{
+    grid-area:five;
+}
+.fr4{
+    grid-area:four;
+}
+.fr3{
+    grid-area:three;
+}
+.fr2{
+    grid-area:two;
+}
+.fr1{
+    grid-area:one;
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+
+}

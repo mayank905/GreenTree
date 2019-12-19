@@ -21,6 +21,12 @@
     header .button1 {
         width: 30%;
     }
+    .l1i1{
+        margin-right:5%;
+    }
+    .l1i2{
+        margin-right:5%;
+    }
 
     /*  section1                 */
     header .button {
@@ -133,6 +139,7 @@
     }
     .teenrect{
     width:200%;}
+
 
 
 

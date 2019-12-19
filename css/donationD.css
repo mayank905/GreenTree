@@ -1,0 +1,31 @@
+@media(min-width:768px) {
+    footer .container1 {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr;
+        grid-template-areas: "one two four six eight" "one three five seven eight";
+    }
+
+    .banner{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+        padding-top: 15%;
+        padding-bottom: 15%;
+        height:44em;
+    }
+    .bannerHeading{
+        padding-right: 5%;
+        font-size: 200%;
+        margin: 10%;
+    }
+
+
+
+
+
+
+
+
+
+
+}

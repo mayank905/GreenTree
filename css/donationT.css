@@ -1,0 +1,41 @@
+@media(min-width:376px) {
+    footer .container1 {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 0.2fr 1fr;
+        grid-template-areas: "one two four" "one three five" "one six eight" "one seven eight";
+        grid-gap: 5%;
+    }
+    .buttonAndLink{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+    .button{
+
+        max-width: 20em;
+
+    }
+    .banner{
+    height:65em;
+    }
+
+    .bannerHeading{
+        font-size: 250%;
+        margin-left: 20%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+

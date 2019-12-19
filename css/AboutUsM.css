@@ -57,6 +57,9 @@ header .list1{
     flex-direction:column;
 
 }
+header .heading{
+    margin-left:5%;
+}
 
 /*                      section1                                   */
 .section1{

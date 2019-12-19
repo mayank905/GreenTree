@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63ec882f-482f-4add-822d-c47a48885ea4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/assets/about-us/poverty.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/assets/about-us/poverty@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/donationD.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/donationM.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/donationT.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/donation.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/AboutUsD.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsD.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/AboutUsM.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsM.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/AboutUsT.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsT.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +45,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/GreenTreeInitiativeProject-master" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
@@ -53,8 +53,11 @@
       <recent name="$PROJECT_DIR$/images" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.index.html">
+  <component name="RunManager" selected="JavaScript Debug.aboutus.html">
     <configuration name="aboutus.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GreenTree/aboutus.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="donation.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GreenTree/donation.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/GreenTree/index.html" useBuiltInWebServerPort="true">
@@ -62,8 +65,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="JavaScript Debug.aboutus.html" />
+        <item itemvalue="JavaScript Debug.donation.html" />
+        <item itemvalue="JavaScript Debug.index.html" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +93,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576213882581</updated>
-      <workItem from="1576213884364" duration="162099000" />
+      <workItem from="1576213884364" duration="175581000" />
+      <workItem from="1576735867711" duration="16891000" />
     </task>
     <servers />
   </component>
@@ -104,6 +109,10 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="311" y="58" width="800" height="677" key="#Inspections/67.27.1299.741@67.27.1299.741" timestamp="1576649175689" />
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl" timestamp="1576687471278">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="499" y="154" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1576687471278" />
     <state x="380" y="175" key="run.anything.popup" timestamp="1576473481411">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
