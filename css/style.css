@@ -6,14 +6,13 @@
     font-family: "Helvetica";
     src: url(../Helvetica.ttf);
 }
-h2{
-    font-size:large;
-}
+
 body{
     padding:0;
     margin:0;
     width:100%;
     color: #354463;
+    font-family: Helvetica;
 }
 li{
     display: inline-block;
@@ -22,7 +21,7 @@ li{
 img {
     max-width: 100%;
     display: block;
-    height: auto;
+
 }
 a{
     color: #354463;
@@ -31,7 +30,7 @@ a{
 
 .section1{
     position:relative;
-    height: 592px;
+    height: 40em;
     width:100%;
     background-image: url("../images/assets/home/annie-spratt-135307-unsplash.png");
     background-position: right;
@@ -42,6 +41,7 @@ header{
     display:flex;
     flex-direction: column;
     align-items: center;
+
 }
 header .container{
     width:100%;
@@ -51,8 +51,8 @@ header .container{
 }
 .button{
     background-color:#C1F7D5 ;
-   width: 100%;
-    border-radius: 100px ;
+    width: 80%;
+    border-radius: 50px ;
     opacity: 1;
     margin:5%;
 }
@@ -80,8 +80,10 @@ header .list1{
     width:100%;
 }
 .heading{
-    margin-left: 2%;
+    margin-left: 5%;
 }
+.list1{margin-left: 5%;
+margin-bottom: 5%}
 .section1{
     display:flex;
     flex-direction: column;
@@ -95,10 +97,10 @@ header .list1{
 .s1r1{
     font-family:"Flood Std";
     color:white;
-    font-size: 200%;
+    font-size: 250%;
     width: 20%;
-    margin-bottom: 10%;
-    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-left: 7%;
 }
 .ajeebrect{
     position: absolute;
@@ -106,35 +108,52 @@ header .list1{
 .s1r3{
     background-color: white;
     height:90%;
-    width:50%;
+    width:70%;
     display: flex;
     flex-direction: column;
 
     position: relative;
     padding: 5%;
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-left:5%;
     text-align: center;
 
 }
+.s1r4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
 .s1r3r1{
-    font-size: xx-large;
 
 }
+
 .ajeebrect{
     padding:2%;
     text-align: center;
     background-color:#354463;
-    width:90px;
+    width:6em;
     color:white;
     left:30%;
     bottom:90%;
 }
 .section1 footer{
+    position: relative;
     background-color: #C1F7D5;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr ;
+    padding: 1%;
+    grid-gap: 2%;
+}
+.section1 footer .s1r5{
+    left:30%;
+    bottom:95%;
+    width:7em;
+    display: flex;
+    justify-content: center;
+    height:5%;
+    align-items: center;
 }
 
 /*                          section2                         */
@@ -150,7 +169,7 @@ header .list1{
 .s2r1{
     max-width: 40%;
     background-color: white;
-    margin-top: 2%;
+    margin-top: 5%;
 }
 .s2r2{
     color:white;
@@ -161,6 +180,7 @@ header .list1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 5%;
 }
 .s2r3r1{
     display:flex;
@@ -208,6 +228,10 @@ header .list1{
 .section2images{
     position:relative;
     bottom: 10px;
+    height:25vh;
+}
+.lorem{
+    text-align: center;
 }
 .section2 .helvetica{
     margin-bottom: 5%;
@@ -216,6 +240,7 @@ header .list1{
     margin-bottom: 5%;
     margin-left: 2%;
 }
+
 /*                         section3                      */
 
 .section3{
@@ -234,8 +259,8 @@ header .list1{
 .s3r1{
     font-family:"Flood Std";
     color:white;
-    font-size: 200%;
-    max-width: 40%;
+    font-size: 250%;
+    max-width: 60%;
     margin-left: 20px;
     margin-top: 20%;
 }
@@ -271,6 +296,7 @@ header .list1{
     grid-template-rows: 1fr 1fr ;
     max-width: 80%;
     max-height: fit-content;
+    grid-gap: 5%;
 }
 
 .social{
@@ -285,6 +311,10 @@ header .list1{
 }
 .leftbound{
     margin-left: 10px;
+}
+.s3r2{
+    min-width: 150px;
+    max-width: 150px;
 }
 /*                     section4                */
 
@@ -311,15 +341,16 @@ header .list1{
     justify-content: center;
     background-color: #354463;
     color: white;
-    max-width:80% ;
     margin-left: 10%;
-    margin-right: 10%;
+    margin-right: 30%;
+    padding: 2%;
     text-align: center;
+    width:77%;
 }
+
 .s4r4{
-    height:70%;
-    width:40%;
-    margin-left:20%;
+    width:14em;
+    margin-left:15%;
     margin-top: 5%;
 }
 /*                                 section5                             */
@@ -338,7 +369,11 @@ header .list1{
 }
 .s5r1{
     font-family: "Flood Std";
-    max-width: 50%;
+    max-width: 60%;
+    font-size: 120%;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom:5%
 }
 .s5r2{
     display:grid;
@@ -378,13 +413,22 @@ header .list1{
 }
 */
 .ajeebrect3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     position: relative;
-    left:70px;
-    bottom:280px;
+    left:28%;
+    bottom:0%;
     background-color: white;
     color: #354463;
-    max-width: 40%;
+    width: 40%;
+}
+.tree{
+    position: relative;
+}
+.event2{
+    display: none;
 }
 /*                           section6                                */
 
@@ -396,10 +440,14 @@ header .list1{
     grid-template-rows: 1fr 1fr;
     grid-template-areas: "one1 one1"
     "two2 three3";
+    padding-left: 10%;
 }
 .s6r1{
     grid-area: one1;
-    font-size: x-large;
+    font-size: 110%;
+    text-align: left;
+    font-weight: bold;
+
 }
 .s6r2{
     text-align: center;
@@ -414,15 +462,15 @@ header .list1{
 }
 .s6r3{
     grid-area: three3;
-    max-width: 80%;
-    margin-top: 5%;
+    max-width: 14em;
+    margin-top: 2%;
 }
 .s6r3 .button2{
     background-color: #354463;
     color: #C1F7D5;
     position:relative;
     bottom:10%;
-    min-width: 94px;
+    min-width: 94px ;
 }
 /*                           footer                                 */
 

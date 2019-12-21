@@ -10,21 +10,52 @@
     }
     header .list1{
         flex-direction:row;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     header .button1{
         width: 30%;
 
     }
+    .heading{
+        position:static;
+    }
+
+    .section1{
+        height:30em;
+    }
     /*  section1                 */
     .s1r1{
         bottom:80%;
+        position: relative;
+        top:5%;
 
     }
     .s1r3{
+        position:relative;
         width:25%;
-        height:50%;
+        height:60%;
+        top:10%;
+    }
+    .section1 footer .s1r5{
+        left:43%;
+        bottom:88%;
+    }
+    @media(min-width:950px){
+        .list1{
+            right:30%;
+        }
+        .s1r3{
+            height:50%;
+        }
+    }
+    .s1r3r1 h2{
+        font-size: 170%;
+        font-weight:bold;
+        text-align: left;
+    }
+    .s1r3r1{
+        height:120%;
     }
 
     .ajeebrect{
@@ -47,38 +78,47 @@
         display:flex;
         flex-direction: row;
         justify-content: space-around;
-        margin: 10px;
+        margin: 3%;
     }
+
     .s2r3r1{
         display:flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 10px;
+        margin: 2%;
+
     }
     .s2r3r2{
         display:flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 10px;
+        margin: 2%;
+
     }
     .s2r3r3{
         display:flex;
         flex-direction: column;
         justify-content: space-between;
-        margin: 10px;
+        margin: 2%;
+
     }
     .section2images{
         bottom: 10px;
         left:30px;
     }
+    .s2r2{
+        margin-top: 5%;
+    }
 
 /*             section4                */
 
     .section4 .container{
+        position: relative;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr .2fr ;
         grid-template-areas: "content1 photo"
         " buttonx photo";
+        right:10%;
     }
     .s4r2{
         grid-area: photo;
@@ -88,7 +128,7 @@
         margin-top: 20%;
         position: relative;
         left:30%;
-        height:80%;
+        height:70%;
         top:1%;
     }
     .s4r4{
@@ -110,6 +150,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr;
         grid-template-areas: "one1 two2 three3";
+        padding-top:5%;
     }
 
 /*            footer             */
