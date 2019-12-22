@@ -10,6 +10,8 @@ body{
     margin:0%;
     padding:0%;
     font-family: Helvetica;
+    font-size: 11px;
+    line-height: 13px;
 }
 .button{
     background-color:#C1F7D5 ;
@@ -29,7 +31,9 @@ li{
     display: inline-block;
 }
 .heading{
-    font-size:150%;
+    font-size:18px;
+    line-height: 22px;
+    font-weight: bold;
     color: #354463;
     display: flex;
     justify-content: center;
@@ -47,17 +51,28 @@ li{
     background-image: url("../images/assets/donation/annie-spratt-427340-unsplash.png");
     background-position: right;
     background-size: cover;
-    height:55em;
+    height:900px;
     background-color: #354463;
 
+}
+.label{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: bold;
+}
+.placeholder{
+    font-size: 16px;
+    line-height: 24px;
 }
 .bannerHeading{
     font-family: "Flood Std";
     color:white;
-    font-size:150%;
-    margin-bottom: 10%;
-    padding-top: 10%;
-    margin-left: 15%;
+    font-size:32px;
+    line-height: 46px;
+    margin-bottom: 8%;
+    padding-top: 8%;
+    margin-left: 11%;
+
 }
 .form{
     background-color: #354463;
@@ -83,6 +98,12 @@ li{
 .firstname{
     grid-area: firstname;
 }
+.firstname input{
+    width:82%;
+}
+.lastname input{
+    width:82%;
+}
 .lastname{
 grid-area:lastname;
 }
@@ -95,10 +116,21 @@ grid-area:lastname;
 .cityName{
     grid-area: city;
 }
+.cityName input{
+    width:82%;
+}
 .stateZip{
     grid-area: statezip;
     display:flex;
     justify-content: flex-start;
+}
+.stateName{
+    position:relative;
+    top:17%;
+}
+.state{
+    position:relative;
+    bottom:17%;
 }
 .emailAddress{
     grid-area: emailAddress;
@@ -145,12 +177,21 @@ select{
     grid-gap: 10%;
 }
 .b4clickMessage{
-    font-size: 150%;
+    font-size: 18px;
+    line-height: 22px;
 }
 .buttonAndLink{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 14px;
+    line-height: 16px;
+}
+.button{
+    height:49px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
 }
 .link a{
     color: #C1F7D5;
@@ -160,7 +201,6 @@ select{
 }
 .label{
     margin-bottom: 10%;
-    font-size: 200%;
 }
 .b4clickMessage{
     margin-top: 10%;
@@ -173,9 +213,20 @@ select{
 
 /*                                 footer                              */
 
-footer .container1{
-    margin-top: 10%;
+.social2{
+    display:flex;
+    flex-direction: column;
+}
+.size{
+    font-size: 14px;
+    line-height: 20px;
     text-align: left;
+}
+
+footer .container1{
+    padding:5%;
+    margin-top: 10%;
+    text-align: center;
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 0.2fr 0.7fr 0.2fr 0.7fr 1fr;
@@ -185,13 +236,13 @@ footer .container1{
     "five seven"
     ". eight";
     grid-gap: 5%;
-    color:#354463;
-    padding: 5%;
+    color: #354463;
 }
 .fr8{
     grid-area: eight;
     font-family: "Flood Std";
-    font-size: xx-large;
+    font-size: 44px;
+    line-height: 46px;
 }
 .fr7{
     grid-area:seven;
@@ -213,8 +264,7 @@ footer .container1{
 }
 .fr1{
     grid-area:one;
-    font-size: x-large;
+    font-size: 18px;
+    line-height: 22px;
     font-weight: bold;
-    text-align: left;
-
 }

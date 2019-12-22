@@ -6,11 +6,10 @@
       <change beforePath="$PROJECT_DIR$/aboutus.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutus.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/AboutUsD.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsD.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/AboutUsM.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsM.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/AboutUsT.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/AboutUsT.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/desktop.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/desktop.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tablet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tablet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/donationD.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/donationD.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/donationM.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/donationM.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/donationT.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/donationT.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/donation.html" beforeDir="false" afterPath="$PROJECT_DIR$/donation.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,8 +66,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.aboutus.html" />
         <item itemvalue="JavaScript Debug.donation.html" />
+        <item itemvalue="JavaScript Debug.aboutus.html" />
       </list>
     </recent_temporary>
   </component>
@@ -95,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1576213882581</updated>
       <workItem from="1576213884364" duration="175581000" />
-      <workItem from="1576735867711" duration="77239000" />
+      <workItem from="1576735867711" duration="94586000" />
     </task>
     <servers />
   </component>

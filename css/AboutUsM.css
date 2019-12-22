@@ -259,7 +259,7 @@ header .container{
     background-image: url("../images/assets/about-us/ian-macharia-509884-unsplash.png");
     background-position:center;
     background-size: cover;
-    height: 680px;
+    height: 700px;
     margin-top:20%;
     background-color: #354463;
     color: white;
@@ -490,6 +490,11 @@ header .container{
     display:flex;
     flex-direction: column;
 }
+.size{
+    font-size: 14px;
+    line-height: 20px;
+    text-align: left;
+}
 
 footer .container1{
     padding:5%;
@@ -508,7 +513,8 @@ footer .container1{
 .fr8{
     grid-area: eight;
     font-family: "Flood Std";
-    font-size: xx-large;
+    font-size: 44px;
+    line-height: 46px;
 }
 .fr7{
     grid-area:seven;
@@ -530,5 +536,7 @@ footer .container1{
 }
 .fr1{
     grid-area:one;
-    font-size: x-large;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: bold;
 }

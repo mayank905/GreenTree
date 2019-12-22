@@ -1,5 +1,6 @@
 @media(min-width:768px) {
     footer .container1 {
+        margin-top: 0%;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 0.2fr 1fr;
         grid-template-areas: "one two four six eight" "one three five seven eight";
@@ -11,12 +12,15 @@
         justify-content: space-around;
         padding-top: 15%;
         padding-bottom: 15%;
-        height:44em;
+        height:924px;
     }
     .bannerHeading{
         padding-right: 5%;
-        font-size: 200%;
+        font-size: 40px;
+        line-height: 42px;
         margin: 10%;
+        margin-top: 0%;
+        padding-top: 0%;
     }
 
 

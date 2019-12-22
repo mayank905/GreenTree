@@ -1,28 +1,50 @@
 @media(min-width:376px) {
-    footer .container1 {
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.2fr 1fr 0.2fr 1fr;
-        grid-template-areas: "one two four" "one three five" "one six eight" "one seven eight";
-        grid-gap: 5%;
+    body{
+        font-size:14px;
+        line-height: 17px;
+    }
+    .heading{
+        font-size: 22px;
+        line-height: 28px;
+    }
+    .label{
+        font-size:28px;
+        line-height: 36px;
+    }
+    .banner{
+        height:1210px;
+    }
+
+
+    .bannerHeading{
+        margin-left: 20%;
+        position: relative;
+        left:10%;
+        width: 50%;
     }
     .buttonAndLink{
         display: flex;
         flex-direction: row-reverse;
         align-items: center;
+        position: relative;
+        right:5%;
     }
     .button{
-
         max-width: 20em;
+    }
+    .b4clickMessage{
+        font-size: 28px;
+        line-height: 36px;
+    }
 
-    }
-    .banner{
-    height:65em;
+    footer .container1 {
+        margin-top: 5%;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 0.2fr 1fr 0.2fr 1fr;
+        grid-template-areas: "one two four" "one three five" "one six eight" "one seven eight";
+        grid-gap: 5%;
     }
 
-    .bannerHeading{
-        font-size: 250%;
-        margin-left: 20%;
-    }
 
 
 

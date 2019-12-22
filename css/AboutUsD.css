@@ -74,6 +74,9 @@
         grid-gap:10%;
     }
     /*                          section3                     */
+    .s3r1{
+    width:15%;
+    }
     .s3r4{
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -136,6 +139,7 @@
         left:7%;
     }
     /*            footer             */
+
     footer .container1{
         margin-top: 0%;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
